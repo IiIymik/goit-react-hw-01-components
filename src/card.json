@@ -1,35 +1,38 @@
 [
-    {
-  "name": "Jacques Gluke",
-  "tag": "jgluke",
-  "location": "Ocho Rios, Jamaica",
-  "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784181.svg",
-  "stats": {
-    "followers": 5603,
-    "views": 4827,
-    "likes": 1308
+  {
+    "id": "id-1",
+    "name": "Jacques Gluke",
+    "tag": "jgluke",
+    "location": "Ocho Rios, Jamaica",
+    "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784181.svg",
+    "stats": {
+      "followers": 5603,
+      "views": 4827,
+      "likes": 1308
+    }
+  },
+  {
+    "id": "id-2",
+    "name": "Ivan Ivanov",
+    "tag": "ddada",
+    "location": "Kyiv, Ukraine",
+    "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg",
+    "stats": {
+      "followers": 24344,
+      "views": 23434,
+      "likes": 1555
+    }
+  },
+  {
+    "id": "id-3",
+    "name": "Roberto Carlos",
+    "tag": "blink",
+    "location": "Oslo, Canada",
+    "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784186.svg",
+    "stats": {
+      "followers": 1203,
+      "views": 2444,
+      "likes": 108
+    }
   }
-},
-    {
-  "name": "Ivan Ivanov",
-  "tag": "ddada",
-  "location": "Kyiv, Ukraine",
-  "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784184.svg",
-  "stats": {
-    "followers": 24344,
-    "views": 23434,
-    "likes": 1555
-  }
-},
-    {
-  "name": "Roberto Carlos",
-  "tag": "blink",
-  "location": "Oslo, Canada",
-  "avatar": "https://www.flaticon.com/svg/static/icons/svg/3784/3784186.svg",
-  "stats": {
-    "followers": 1203,
-    "views": 2444,
-    "likes": 108
-  }
-}
 ]
