@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types';
+import styles from './Section.module.css';
 
 function Section({ title, children }) {
 	return (
-		<div>
+		<div className={styles.container}>
 			{title && <h2>{title}</h2>}
 			{children}
 		</div>

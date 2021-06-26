@@ -1,6 +1,6 @@
-import ProfileList from './components/ProfileList';
-import Section from './components/Section';
-import cards from './card.json';
+import ProfileList from '../ProfileList/ProfileList';
+import Section from '../Section/Section';
+import cards from '../../data/card.json';
 
 export default function App() {
 	return (

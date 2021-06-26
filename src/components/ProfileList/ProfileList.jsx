@@ -1,19 +1,20 @@
 import PropTypes from 'prop-types';
-import Profile from './Profile';
+import Profile from '../Profille/Profile';
+import styles from './ProfileList.module.css';
 
 function ProfileList({ items }) {
 	return (
-		<ul>
+		<ul className={styles.list}>
 			{items.map(item => (
-				<li key={item.id}>
+				<li key={item.id} className={styles.item}>
 					<Profile
 						avatar={item.avatar}
 						name={item.name}
 						tag={item.tag}
 						location={item.location}
-						followers={item.followers}
-						views={item.views}
-						likes={item.likes}
+						followers={item.stats.followers}
+						views={item.stats.views}
+						likes={item.stats.likes}
 					/>
 				</li>
 			))}
