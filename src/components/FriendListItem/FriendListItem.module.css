@@ -1,0 +1,17 @@
+.online {
+	width: 20px;
+	height: 20px;
+	background-color: green;
+}
+
+.offline {
+	width: 20px;
+	height: 20px;
+	background-color: red;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
