@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 import FriendListItem from '../FriendListItem/FriendListItem';
 import styles from './FriendList.module.css';
 
@@ -16,3 +17,11 @@ export default function FriendList({ friends }) {
 		</ul>
 	);
 }
+
+FriendList.prototype = {
+	friends: PropTypes.arrayOf(
+		PropTypes.shape({
+			id: PropTypes.string.isRequired,
+		}),
+	),
+};

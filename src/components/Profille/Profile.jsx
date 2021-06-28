@@ -23,15 +23,15 @@ export default function Profile({
 			<ul className={styles.stats}>
 				<li>
 					<span className={styles.label}>Followers</span>
-					<span className={styles.quantity}>{followers}</span>
+					<span className={styles.quantity}>{followers.toLocaleString('en-IN')}</span>
 				</li>
 				<li>
 					<span className={styles.label}>Views</span>
-					<span className={styles.quantity}>{views}</span>
+					<span className={styles.quantity}>{views.toLocaleString('en-IN')}</span>
 				</li>
 				<li>
 					<span className={styles.label}>Likes</span>
-					<span className={styles.quantity}>{likes}</span>
+					<span className={styles.quantity}>{likes.toLocaleString('en-IN')}</span>
 				</li>
 			</ul>
 		</div>

@@ -9,5 +9,4 @@ function randomColor() {
 	return colors[randomNum];
 }
 
-// console.log(randomColor())
 export default randomColor;
