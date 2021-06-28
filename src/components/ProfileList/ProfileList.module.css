@@ -1,13 +1,17 @@
 .list {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-	grid-gap: 20px;
-
-	background-color: gray;
+	grid-gap: 20px; */
+	display: flex;
+	gap: 20px;
+	align-items: center;
+	justify-content: center;
+	/* background-color: gray; */
 	list-style: none;
 }
 
 .item {
 	align-items: center;
 	justify-content: center;
+	width: 260px;
 }

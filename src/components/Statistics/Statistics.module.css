@@ -1,10 +1,7 @@
 .section {
 	display: flex;
-	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-
-	width: 360px;
 }
 
 .list {
@@ -13,6 +10,7 @@
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 	margin: 0px;
 	padding: 0px;
+	/* background-color: blue; */
 }
 
 .item {
@@ -20,4 +18,43 @@
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	border: 1px solid grey;
+	padding: 15px 20px;
+	background-color: aqua;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-evenly;
+	/* min-width: 300px;
+	min-height: 150px; */
+
+	border: 1px solid rgba(153, 153, 153, 0.712);
+}
+
+.label,
+.percentage {
+	color: aliceblue;
+	font-weight: 400;
+}
+
+.label {
+	font-size: 12px;
+	line-height: 24px;
+}
+
+.percentage {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 28px;
+}
+
+.title {
+	font-weight: 700;
+	line-height: 28px;
+	font-size: 22px;
+	padding-top: 25px;
+	padding-bottom: 20px;
 }

@@ -1,3 +1,7 @@
+.main {
+	border-radius: 50%;
+	margin-left: 5px;
+}
 .online {
 	width: 20px;
 	height: 20px;
@@ -12,6 +16,25 @@
 
 .container {
 	display: flex;
-	justify-content: center;
 	align-items: center;
+	width: 250px;
+	height: 60px;
+	box-shadow: inset 2px 2px 5px rgba(154, 147, 140, 0.5), 1px 1px 5px rgba(255, 255, 255, 1);
+	border: 1px solid grey;
+	/* margin-top: 20px; */
+}
+
+.avatar {
+	margin-left: 5px;
+	border: 1px solid grey;
+	border-radius: 18%;
+	overflow: hidden;
+}
+
+.name {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 12px;
+	letter-spacing: 2px;
+	margin-left: 10px;
 }
